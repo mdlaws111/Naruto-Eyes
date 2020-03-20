@@ -1,0 +1,82 @@
+/*All custom css here*/
+.h-one-home{
+	color: green;
+}
+
+.h-one-am{
+	color: red;
+}
+
+.h-one-pkd{
+	color: blue;
+}
+
+.h-one-sc{
+	color: black;
+}
+
+
+
+.lost-in-trans{
+	
+	position: absolute;
+	left: 110px;
+	border: 1px solid;
+	padding: 10px;
+	/*top: */}
+
+/*This is a parent child multi selector*/
+/*all paragraphs inside of lost-in-trans will be this css below*/
+.lost-in-trans p {
+	color: black;
+	width: 500px;
+
+}
+
+.lost-in-trans img{
+	width: 100%;
+}
+
+.beguiled{
+	position: absolute;
+	left: 700px;
+	border: 1px solid;
+	padding: 10px;
+}
+
+.beguiled img{
+	width: 500px;
+	height: 265px;
+}
+
+.beguiled p{
+	width: 500px;
+}
+
+
+
+
+.virgin-suicides{
+	position: absolute;
+	left: 1285px;
+	border: 1px solid;
+	padding: 10px;
+}
+
+.virgin-suicides img{
+	width: 500px;
+ 	
+}
+
+.virgin-suicides p{
+	width: 500px;
+}
+
+
+
+
+
+
+
+
+
