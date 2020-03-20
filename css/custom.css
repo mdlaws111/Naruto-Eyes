@@ -1,0 +1,370 @@
+
+
+html, body {
+	font-family: 'Roboto Slab', serif;
+	margin:none;
+	width: 100%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*Background image*/
+.uchiha-pic { 
+  background: url(../img/uchiha-clan.jpg) no-repeat center center fixed; 
+  /*-webkit-background-size: cover;*/
+/*  -moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  background-size: cover;
+ position: relative;
+}
+
+
+/*Social media links start*/
+
+
+.social {
+	float: left;
+	width: 15%;
+	padding: 4px;
+	margin-left: 15px;
+	margin-right:15px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+.social img {
+	width: 40px;
+	height: 40px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.social a {
+	cursor: pointer;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+/*Social media links end*/
+
+
+
+/*Nav bar start*/
+.nav{
+	list-style-type: none;
+	overflow: auto;
+	margin: 0;
+	position: fixed;
+	background-color: #000;
+	font-weight: 300;
+	width: 100%;
+	z-index: 1;
+	top: 0px;
+	height: 50px;
+	font-size: 25px;
+}
+
+.nav-bar {
+	background-color: black;
+	padding: 5px;
+	float: left;
+	margin-left: 60px;
+	width: 17%;
+	text-align: center;
+	cursor: pointer;
+	
+}
+
+.nav-bar:hover {
+	background-color: #efefef;
+	color: black;
+	
+}
+
+.nav-bar:hover a {
+	color: black;
+}
+
+
+/*Nav bar end*/
+
+.uchiha-header{
+	top: 30px;	
+	position: absolute;
+	color: red;
+	font-size: 100px;
+	margin-left: 680px;
+	margin-bottom: 200px;
+	-webkit-text-stroke-width:  3px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+
+	/*uchiha header icons*/
+
+	/*uchiha header icons*/
+
+.uchiha-div {
+	margin-top: 2%;
+	height: 90vh;
+	background-image: url('../img/uchiha-clan.jpeg');
+	background-size: cover;
+}
+
+.uchiha-text, .uchiha-text1, .uchiha-text2{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	-webkit-text-stroke-width: 0.3px;
+  	-webkit-text-stroke-color: black;
+}
+
+/* All text for uchiha contained in this- .bg-black */
+.bg-black {
+	position: relative;
+	background-color:rgba(0,0,0,0.62);
+	height: 50vh;
+	width: 40%;
+	top: 175px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+/*uchiha header icons*/
+
+.man-shar{
+	position: absolute;
+	top: 60px;
+	left: 475px;
+}
+
+.man-shar img{
+	height: 125px;
+	width: 125px;
+}
+.sas-shar{
+	position: absolute;
+	top: 60px;
+	left: 1300px;
+}
+.sas-shar img{
+	height: 125px;
+	width:  125px;
+}
+/*uchiha header icons*/
+
+	/*uchiha page start*/
+
+	/*Uchiha page text*/
+.uchiha-text{
+	position: absolute;
+	left: 85px;
+	top: 10px;
+	padding: 10px;
+	width: 400px;
+	
+}
+
+.uchiha-text1{
+	position: absolute;
+	left: 85px;
+	top:  230px;
+	padding: 10px;
+	width: 400px;
+}
+
+.uchiha-text2{
+	position: absolute;
+	left: 85px;
+	top:  520px;
+	padding: 10px;
+	width: 400px;
+}
+
+
+/*Itachi Page Start*/
+ .itachi-vid iframe {
+ 		position: absolute;
+ 	    top: 350px;
+ 	    right: 243px;
+ 	    width: 500px;
+ 	    height: 300px;
+}
+
+.genjutsu-div {
+	position: relative;
+}
+
+.Genjutsu{
+	color: red;
+	top: 1300px;
+	left: 250px;
+	font-size: 100px;
+	font-family: 'Luckiest Guy', cursive;
+	-webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  .hide:hover .hide-item,
+  .hide:focus .hide-item, 
+  visibility: hidden;
+}
+
+.genjutsup{
+	position: absolute;
+	height: 300px;
+	top: 150px;
+	width: 400px;
+	left: 300px;
+	color: white;
+}
+	/*Itachi Page End*/
+
+.pain-div{
+	position: relative;
+	background: url(../img/pain-pic.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.pain-div {
+	position: relative;
+}
+
+.pain-paths{
+	position: absolute;
+	color: white;
+	left: 600px;
+	top: 15px;
+	font-size: 90px;
+	font-family: 'Luckiest Guy', cursive;
+	-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: red;
+}
+
+.tenor-one { 
+	position: absolute;
+	bottom: 250px;
+	left: 5%;
+	width: 32%; 
+	height: 400px; 
+}
+
+ .tenor-gif{
+ 	position: absolute;
+	bottom: 370px;
+	left: 35%;
+	width: 32%; 
+	height: 280px; 
+ }
+
+ .tenor2-gif{
+ 	position: absolute;
+	bottom: 370px;
+	left: 67%;
+	width: 32%; 
+	height: 280px; 
+ }
+
+
+ /*Animation CSS */
+
+
+
+
+	.container{
+		position: absolute;
+		top: 50%;
+		left: 50%
+		transform: translate(-50%,-50%);
+		font-family: 
+		font-size: 65px;
+		font-weight: bold;
+		color: 333333;
+	}
+
+
+	.container span{
+		animation: disappear 6s ease-in-out
+			infinite;
+	}
+
+	@keyframes disappear{
+		0%{
+			text-shadow: 2px 2px 5px $333333;
+			color: red;
+
+		}
+		5%{
+			text-shadow: 2px 2px 5px $333333;
+			color: transparent;
+
+		}
+
+		0%{
+			text-shadow: 2px 2px 5px $333333;
+			color: red;
+		}
+		90%{
+			text-shadow: 20px -50px 40px rgb (0,0,0,.1)
+			color: transparent;
+		}
+		95%{
+			text-shadow: 20px -50px 40px rgb (0,0,0,.1)
+			color: transparent;
+		}
+
+		100%{
+			text-shadow: 20px -50px 40px rgb (0,0,0,.1)
+			color: transparent;
+			opacity: 0;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------- Media Query Starts -------*/
+/*This is media queried for iPad*/
+@media only screen and (max-width: 1300px) {
+	
+	.bg-black{
+		width: 45%;
+		height: 60vh;
+	}
+
+}
+/*------- Media Query END -------*/
+
+
+/*------- Media Query Starts -------*/
+/*This is media queried for iPad*/
+@media only screen and (max-width: 1025px) {
+	
+	.bg-black{
+		width: 50%;
+		height: 60vh;
+	}
+
+}
+/*------- Media Query END -------*/
+
+
